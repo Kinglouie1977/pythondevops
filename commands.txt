@@ -1,0 +1,3 @@
+pip install -r req.txt
+pylint app.py --load-plugins pylint_flask_sqlalchemy
+pylint --generate-rcfile > .pylintrc
